@@ -10,7 +10,11 @@ using namespace std;
 typedef long long ll;
 
 void chuong01(int x){
-    cout << "chuong 01 + "<< x << endl;
+    int y = x + 2;
+    cout << "chuong 01 + "<< y << endl;
+}
+void cho_duyet(int x){
+    cout << "cho duyet + "<< x << endl;
 }
 
 int main (){   
@@ -28,5 +32,6 @@ int main (){
     cout << ans << endl;
     cout << "=====" << endl;
     chuong01(9999);
+    cho_duyet(8888);
     return 0;
 }
