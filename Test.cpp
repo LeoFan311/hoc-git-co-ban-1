@@ -9,6 +9,10 @@ using namespace std;
 
 typedef long long ll;
 
+void chuong01(int x){
+    cout << "chuong 01 + "<< x << endl;
+}
+
 int main (){   
     int f[31];
     int ans = 0;
@@ -22,5 +26,7 @@ int main (){
         ans += f[i];
     }
     cout << ans << endl;
+    cout << "=====" << endl;
+    chuong01(9999);
     return 0;
 }
